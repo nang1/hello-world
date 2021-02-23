@@ -4,9 +4,11 @@
 public class GitDemo {
     
     private double previousNumber;
+    private double newReversNum;
     
     public GitDemo() {
         previousNumber = 1;
+        newReversNum = 1;
     }
     
     /*****
@@ -45,7 +47,7 @@ public class GitDemo {
         for(int i = 1; i <= num; ++i){
             newNumber = newNumber * i;
         }
-        
+        newReversNum = newNumber;
         return newNumber;
     }
     
