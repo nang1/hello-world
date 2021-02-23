@@ -4,9 +4,11 @@
 public class GitDemo {
     
     private double previousNumber;
+    private double newReversNum;
     
     public GitDemo() {
         previousNumber = 1;
+        newReversNum = 1;
     }
     
     /*****
